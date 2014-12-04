@@ -35,6 +35,17 @@ public class Variables
         string Surname = "Schmoe";
 
             Debug.Log( Name + " " + Surname);
+        /* pre-condition while*/
+        /* execute 0-* */
+            bool isLooping = true;
+            int counter = 0;
+        while (/* condition*/ isLooping )
+        {
+        /* loop body*/
+            Debug.Log(counter++);
+            isLooping = counter <= 100;
+        
+        }
 
     }
 }
